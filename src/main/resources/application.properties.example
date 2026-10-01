@@ -1,0 +1,6 @@
+# Copy this file to application.properties and fill in your real values.
+# Change db.username and db.password to match YOUR MySQL installation.
+# Environment variables DB_URL, DB_USERNAME and DB_PASSWORD (if set) override these values.
+db.url=jdbc:mysql://localhost:3306/student_management?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&connectTimeout=5000
+db.username=root
+db.password=YOUR_PASSWORD
